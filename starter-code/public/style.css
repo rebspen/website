@@ -4,6 +4,32 @@ body {
   font-family: "Playfair Display", serif;
 }
 
-h1{
-  font-size: 4em;
+h1 {
+  font-size: 5em;
+}
+
+p {
+  color: #323232;
+}
+
+.name {
+  border-bottom: 4px solid currentColor;
+}
+
+.line {
+  width: 112px;
+  height: 60px;
+  border-bottom: 4px solid #fe2828;
+  /* position: absolute; */
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.line2 {
+  width: 200px;
+  height: 60px;
+  border-bottom: 4px solid #fe2828;
+  /* position: absolute; */
+  margin-left: 1em;
+  margin-right: 1em;
 }
