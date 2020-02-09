@@ -4,6 +4,16 @@ body {
   font-family: "Playfair Display", serif;
 }
 
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+}
+
 .touch {
   color: #fe2828;
   word-spacing: 0.3em;
@@ -14,6 +24,18 @@ body {
   transition: all 0.5s ease;
 }
 
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: #fe2828;
+  animation-duration: 2000ms;
+  animation-name: blink;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+}
+
 .buttons:hover {
   color: #fe2828;
   transition: all 0.3s ease;
@@ -21,6 +43,13 @@ body {
 
 h1 {
   font-size: 5em;
+}
+
+h5 {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 2;
 }
 
 p {
@@ -47,4 +76,17 @@ p {
   /* position: absolute; */
   margin-left: 1em;
   margin-right: 1em;
+}
+
+.end {
+  width: 50vh;
+}
+
+@keyframes blink {
+  from {
+    color: #fe2828;
+  }
+  to {
+    color: #323232;
+  }
 }
