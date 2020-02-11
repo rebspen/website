@@ -8,8 +8,16 @@ html {
   scroll-behavior: smooth;
 }
 
+h4 {
+  text-align: center;
+}
+
 section {
   height: 100vh;
+}
+
+.video{
+  height: 70vh;
 }
 
 .touch {
@@ -20,6 +28,10 @@ section {
 .links:hover {
   color: #323232;
   transition: all 0.5s ease;
+}
+
+.arrow {
+  font-size: 1.7em;
 }
 
 a:hover,
@@ -53,7 +65,7 @@ h5 {
 p {
   color: #323232;
   text-align: center;
-  margin: 1em
+  margin: 1em;
 }
 
 .name {
@@ -81,10 +93,6 @@ p {
 .end {
   width: 50vh;
 }
-
-
-
-
 
 @keyframes blink {
   from {

@@ -19,15 +19,15 @@
 </head>
 <body>
   <!-- section 1 homepage -->
-  <section id = "Home">
-    <div class="d-flex flex-row-reverse mt-3 mr-5 touch links">
-    <a href="mailto:rebeccaspence111@gmail.com?subject=Hi">
-        Get in touch ->->-></a>
-      </div>
-    </a> 
+  <section id = "Home" class = " pt-3">
     <div>
+      <div class="d-flex flex-row-reverse mr-5 mt-5 touch links">
+      <a href="mailto:rebeccaspence111@gmail.com?subject=Hi">
+          Get in touch ->->-></a>
+        </div>
+      </a> 
       <div
-      class="d-flex justify-content-center flex-column align-items-center mt-5"
+      class="d-flex justify-content-center flex-column align-items-center"
       >
       <div class="d-flex justify-content-center flex-row mb-2">
         <h1><span class="name">Becca Spence</span></h1>
@@ -48,10 +48,10 @@
       <h3>React.Javascript ES6.HTML5.CSS4.Node.MongoDB.Bootstrap.Canvas.git</h3>
     </div>
     <div
-    class="d-flex justify-content-between flex-row p-5 m-5"
+    class="d-flex justify-content-between flex-row m-5"
     >
     <a href = "https://github.com/rebspen" target="_blank"><p class = "buttons">Github</p></a>
-    <a href = "#About"> &#x25BC;</a>
+    <a href = "#About" class = "arrow"> &#x25BC;</a>
     <a href = "https://www.linkedin.com/in/becca-spence-7335455b/" target="_blank" ><p class = "buttons">Linkedin</p></a>
   </div>
 </div>
@@ -60,42 +60,45 @@
 
 <section id = "About">
   <div class = "d-flex justify-content-center flex-column align-items-center m-5 pt-5">
-    <a href = "#Home"> &#x25B2;</a>
+    <a href = "#Home" class = "arrow"> &#x25B2;</a>
     <h1 class = "m-4">About Me</h1>
     <h5>Currently a Teaching Assistant on Ironhack's Full Stack Web Development course in Lisbon. I have considerable experience in project management and growth marketing - making me a strong candidate for technical roles where I'm interacting with project managers and designers.
       looking for freelance and fulltime roles. Feel free to reach out if you're looking for a developer, have a question, or just want to connect.
     </h5>
-    <h5>Check out some of my work below.</h5>
+    <h5>Check out some of my work below...</h5>
     <br>
-    <a href = "#Work"> &#x25BC;</a>
+    <a href = "#Work" class = "arrow"> &#x25BC;</a>
   </div>
 </section>
 <!-- section 2 About -->
 <section id = "Work">
   <div class = "d-flex justify-content-center flex-column align-items-center m-5 pt-5">
-    <a href = "#About"> &#x25B2;</a>
+    <a href = "#About" class = "arrow"> &#x25B2;</a>
     <h1>Work</h1>
   </div>
   <div class = "d-flex justify-content-center flex-column align-items-center">
-    <h4>Zodiaction Game - Canvas/HTML/CSS/Javascript</h4>
-    <p>I created a game during my Ironhack bootcamp. I am not a big gamer, so I went for a more meditative experience. 
-<a href = "https://zodiaction.netlify.com/">Try it out here</a> </p>
+    <h4 class = "w-50">Zodiaction Game - Canvas/HTML/CSS/Javascript</h4>
     <video controls autoplay loop class="d-block w-50">
       <source src="public/images/ZodiactionDemoEdited.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
+      <p class = "w-50">I created a game during my Ironhack bootcamp. I am not a big gamer, so I went for a more meditative experience. 
+  <a href = "https://zodiaction.netlify.com/">Try it out here</a> </p>
       <br>
-      <h4>Mindscape - React/Node/HTML/CSS/MongoDB/Bootstrap</h4>
-    <p>Bored of echo-chamber recommendation tools? Mindscape is designed to help to help you discover new books, podcasts and ideas, and encourage interdisciplinary thinking. Just pick one of our thought-provoking curated themes that catches your eye and start your adventure... <a href = "https://mind-scape.herokuapp.com/">Try it out here</a> </p>
-      <video autoplay class="d-block w-50">
-        <source src="public/images/ZodiactionDemoEdited.mp4" type="video/mp4">
+      <h4 class = "w-50">Mindscape - React/Node/HTML/CSS/MongoDB/Bootstrap/Axios/Google Books API/Tastedive API</h4>
+      <video controls autoplay loop class="d-block video">
+        <source src="public/images/Mindscape.mov" type="video/mp4">
           Your browser does not support the video tag.
         </video>
+      <p class = "w-50">Bored of echo-chamber recommendation tools? Mindscape is designed to help to help you discover new books, podcasts and ideas, and encourage interdisciplinary thinking. Just pick one of our thought-provoking curated themes that catches your eye and start your adventure... <a href = "https://mind-scape.herokuapp.com/">Try it out here</a> </p>
         <br>
+        <h4 class = "w-50">New Day - Express/Node/HTML/CSS/MongoDB/Bootstrap/Axios/Unsplash API/Google Maps API</h4>
         <video autoplay class="d-block w-50">
           <source src="public/images/ZodiactionDemoEdited.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
+          <p class = "w-50">New day is a journal app based on the concept of the 5 minute journal. It helps you start the day with positive intentions and then reflect on what you have achived at the end of the day.<a href = "https://new-day-journal.herokuapp.com/"> Try it out here</a> </p>
+          
           <br>
         </div>
       </div>
