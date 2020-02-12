@@ -30,7 +30,7 @@ body {
   /* position: absolute; */
   margin-right: 0.5em;
   margin-left: 0.5em;
-  visibility: hidden;
+  
 }
 
 .line2 {
@@ -39,7 +39,7 @@ body {
   height: 10px;
   border-bottom: 4px solid #fe2828;
   /* position: absolute; */
- 
+  visibility: hidden;
 }
 
 .job {
