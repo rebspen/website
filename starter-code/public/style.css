@@ -1,3 +1,7 @@
+html {
+  width: 100vw;
+}
+
 body {
   background-color: #f8b1ac;
   color: #fe2828;
@@ -8,30 +12,67 @@ html {
   scroll-behavior: smooth;
 }
 
-h4 {
-  text-align: center;
-}
-
-section {
+#Home {
   height: 100vh;
 }
 
-.video{
-  height: 70vh;
+#About {
+  height: 100vh;
 }
 
-.touch {
-  color: #fe2828;
-  word-spacing: 0.3em;
+.about {
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
-.links:hover {
+.line {
+  margin: auto;
+  width: 50px;
+  height: 10px;
+  border-bottom: 4px solid #fe2828;
+  /* position: absolute; */
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+.job {
+  border-bottom: 4px solid currentColor;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1em;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+h5 {
+  font-size: 1.2em;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+p {
+  text-align: center;
   color: #323232;
-  transition: all 0.5s ease;
+  max-width: 60%;
 }
 
 .arrow {
   font-size: 1.7em;
+}
+
+.mindscape {
+  border-radius: 12px;
+  max-height: 300px;
+}
+
+.zodiaction {
+  max-width: 500px;
 }
 
 a:hover,
@@ -46,54 +87,6 @@ a:active {
   animation-direction: alternate;
 }
 
-.buttons:hover {
-  color: #fe2828;
-  transition: all 0.3s ease;
-}
-
-h1 {
-  font-size: 5em;
-}
-
-h5 {
-  text-align: center;
-  margin-left: 15%;
-  margin-right: 15%;
-  line-height: 2;
-}
-
-p {
-  color: #323232;
-  text-align: center;
-  margin: 1em;
-}
-
-.name {
-  border-bottom: 4px solid currentColor;
-}
-
-.line {
-  width: 112px;
-  height: 60px;
-  border-bottom: 4px solid #fe2828;
-  /* position: absolute; */
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
-.line2 {
-  width: 200px;
-  height: 60px;
-  border-bottom: 4px solid #fe2828;
-  /* position: absolute; */
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
-.end {
-  width: 50vh;
-}
-
 @keyframes blink {
   from {
     color: #323232;
@@ -101,4 +94,12 @@ p {
   to {
     color: #fe2828;
   }
+}
+
+.video {
+  width: 80%;
+}
+
+.works {
+  height: 100vh;
 }
