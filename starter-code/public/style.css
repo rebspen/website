@@ -13,8 +13,18 @@ body {
   height: 100vh;
 }
 
+.home {
+  height: 85%;
+}
+
 #About {
   height: 100vh;
+  background-color: #fe2828;
+  color: white;
+}
+
+.abouth {
+  height: 85%;
 }
 
 .about {
@@ -30,7 +40,6 @@ body {
   /* position: absolute; */
   margin-right: 0.5em;
   margin-left: 0.5em;
-  
 }
 
 .line2 {
@@ -82,10 +91,10 @@ p {
   max-width: 500px;
 }
 
-a:hover,
-a:visited,
-a:link,
-a:active {
+.blink:hover,
+.blink:visited,
+.blink:link,
+.blink:active {
   text-decoration: none;
   color: #fe2828;
   animation-duration: 2500ms;
@@ -103,19 +112,57 @@ a:active {
   }
 }
 
+.blink2:hover,
+.blink2:visited,
+.blink2:link,
+.blink2:active {
+  text-decoration: none;
+  color: white;
+  animation-duration: 1500ms;
+  animation-name: blink2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink2 {
+  from {
+    color: #323232;
+  }
+  to {
+    color: white;
+  }
+}
+
 .video {
   width: 80%;
+  margin-left: 10%;
 }
 
 .works {
   height: 100vh;
 }
 
+.card-text {
+  max-width: 100%;
+  margin: 5%;
+}
+
+.card {
+  background-color: #f8b1ac;
+  border: none;
+}
+
+.tech {
+  color: #fe2828;
+}
+
 @media only screen and (max-width: 600px) {
-  .arrow {
-    visibility: hidden;
-  }
   .line2 {
     visibility: visible;
   }
+}
+
+.arrowab {
+  color: white;
+  font-size: 1.7em;
 }

@@ -20,24 +20,23 @@
   <body>
     <!-- section 1 homepage -->
     <section id="Home" class=" pt-3">
-      <div class="d-flex flex-row-reverse mr-5 mt-4 ">
+      <div class="d-flex flex-row-reverse mr-5 mt-3 mb-3 ">
         <a href="mailto:rebeccaspence111@gmail.com?subject=Hi">
           Get in touch ->->-></a
         >
       </div>
-      <br />
       <div
-        class="d-flex flex-column justify-content-center align-items-center m-2"
+        class="d-flex flex-column justify-content-between align-items-center m-2 home"
       >
         <h1 class = "name">Becca Spence</h1>
         <div class="d-flex flex-row justify-content-center align-items-center m-2">
-          <p class="line"></p><a href="#About">
+          <p class="line"></p><a href="#About" class = "blink">
             <h1><em>About</em></h1>
           </a>
         </div>
         <h1>Front End Developer</h1>
         <div class="d-flex flex-row justify-content-center align-items-center m-2">
-          <a href="#Work">
+          <a href="#Work" class = "blink">
             <h1><em>Work</em></h1>
           </a><p class="line"></p>
       </div>
@@ -50,25 +49,22 @@
         <br />
         <div class="d-flex justify-content-around flex-row  m-2 w-100">
           <a href="https://github.com/rebspen" target="_blank"
-          ><p class="buttons">Github</p></a
+          ><p class="buttons blink">Github</p></a
         >
         <a
           href="https://www.linkedin.com/in/becca-spence-7335455b/"
           target="_blank"
-          ><p class="buttons">Linkedin</p></a
+          ><p class="buttons blink">Linkedin</p></a
         >
         </div>
-        
-        <a href="#About" class="arrow"> &#x25BC;</a>
       </div>
     </section>
   
     <!-- section 2 About -->
     <section id="About">
       <div
-        class="d-flex justify-content-center flex-column align-items-center pt-5"
+        class="d-flex justify-content-center flex-column align-items-center pt-5 abouth"
       >
-        <a href="#Home" class="arrow"> &#x25B2;</a>
         <h1 class="m-4">About Me</h1>
         <h5 class="about">
           Currently a Teaching Assistant on Ironhack's Full Stack Web
@@ -77,15 +73,15 @@
           for technical roles where I'm interacting with project managers and
           designers.
         </h5> 
-        <br>
+        
           <h5 class="about">Feel free to
           reach out if you're looking for a developer, have a question, or just
           want to connect.
         </h5>
-        <br />
+        
         <h5>Check out some of my work below...</h5>
-        <br />
-        <a href="#Work" class="arrow"> &#x25BC;</a>
+
+        <a href="#Work" class="arrowab blink2 mt-1 mb-3"> &#8659</a>
       </div>
     </section>
     <!-- section 3 Work -->
@@ -93,12 +89,27 @@
       <div
       class="d-flex justify-content-center flex-column align-items-center m-2 pt-5"
       >
-      <a href="#About" class="arrow mb-4"> &#x25B2;</a>
       <h1 class ="mb-3">Work</h1>
+
+    <div class="card mb-5">
+      <video controls autoplay loop class="d-block video mindscape">
+        <source src="public/images/MindscapeCloseUp.mov" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="card-body">
+        <h5 class="card-title">Mindscape</h5>
+        <p class="card-text">Ironhack MERN project -> Mindscape is designed to help to help you discover new books, podcasts
+          and ideas, and encourage interdisciplinary thinking.</p>
+        <p class="card-text"><small class="tech">React/Node/HTML/CSS/MongoDB/Bootstrap/Axios/Google Books
+          API/Tastedive API</small></p>
+      </div>
     </div>
-    
-    <div class="d-flex justify-content-start flex-column align-items-center works">
-      <h5 class="video mb-2">Zodiaction Game <small>Canvas/HTML/CSS/Javascript</small> </h5>
+    <div class="card mb-5">
+      <div class="card-body">
+        <h5 class="card-title">Zodiaction Game</h5>
+        <p class="card-text">A game that changes based on your star sign.</p>
+        <p class="card-text"><small class="tech">Canvas/HTML/CSS/Javascript</small></p>
+      </div>
       <video controls autoplay loop class="d-block video zodiaction">
         <source
         src="public/images/ZodiactionDemoEdited.mp4"
@@ -106,50 +117,19 @@
         />
         Your browser does not support the video tag.
       </video>
-      <p class="video mt-2">
-        A game that changes based on your star sign.
-        <a href="https://zodiaction.netlify.com/">Have a look</a>
-      </p>
-      <a href="#work2" class="arrow"> &#x25BC;</a>
     </div>
-    
-   
-    <div id ="work2" class="d-flex justify-content-start flex-column align-items-center works">
-      <a href="#Work" class="arrow mt-3"> &#x25B2;</a>
-      <h5 class="video mb-3 mt-3">
-        Mindscape <small>React/Node/HTML/CSS/MongoDB/Bootstrap/Axios/Google Books
-          API/Tastedive API</small> 
-        </h5>
-        <video controls autoplay loop class="d-block video mindscape">
-          <source src="public/images/MindscapeCloseUp.mov" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <p class="video mt-2 mb-2">
-          Mindscape is designed to help to help you discover new books, podcasts
-          and ideas, and encourage interdisciplinary thinking.
-          <a href="https://mind-scape.herokuapp.com/">Try it out here</a>
-        </p>
-        <a href="#work3" class="arrow"> &#x25BC;</a>
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">New Day</h5>
+        <p class="card-text"> New day is a journal app based on the concept of the 5 minute journal.</p>
+        <p class="card-text"><small class="tech">Express/Node/HTML/CSS/MongoDB/Bootstrap/Axios/Unsplash
+          API/Google Maps API</small></p>
       </div>
-      
-      <div id = "work3" class="d-flex justify-content-center flex-column align-items-center works">
-        <a href="#work2" class="arrow"> &#x25B2;</a>
-        <h5 class="video mb-2 mt-2">
-          New Day <small>Express/Node/HTML/CSS/MongoDB/Bootstrap/Axios/Unsplash
-            API/Google Maps API</small>
-          </h5>
-          <video autoplay class="d-block video zodiaction">
-            <source
-            src="public/images/ZodiactionDemoEdited.mp4"
-            type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
-          <p class="video mt-2">
-            New day is a journal app based on the concept of the 5 minute journal.
-            <a href="https://new-day-journal.herokuapp.com/"> Try it out here</a>
-          </p>
-          
+      <video controls autoplay loop class="d-block video mindscape">
+        <source src="public/images/MindscapeCloseUp.mov" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
           
           <a href="#Home" class="arrow mt-1 mb-3"> &#x25B2;</a>
           <a href="mailto:rebeccaspence111@gmail.com?subject=Hi" class="mb-5">
