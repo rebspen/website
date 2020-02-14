@@ -14,11 +14,11 @@ body {
 }
 
 .home {
-  height: 85%;
+  display: none !important;
 }
 
 #About {
-  height: 90vh;
+  height: 93vh;
   background-color: #fe2828;
   color: white;
 }
@@ -34,7 +34,7 @@ body {
 
 .line {
   margin: auto;
-  width: 50px;
+  width: 60px;
   height: 10px;
   border-bottom: 4px solid #fe2828;
   /* position: absolute; */
@@ -51,12 +51,22 @@ body {
   visibility: hidden;
 }
 
+.line3 {
+  margin: auto;
+  width: 150px;
+  height: 10px;
+  border-bottom: 4px solid #fe2828;
+  /* position: absolute; */
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 .job {
   border-bottom: 4px solid currentColor;
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 5em;
   text-align: center;
 }
 
@@ -112,8 +122,6 @@ p {
   }
 }
 
-
-
 .video {
   width: 80%;
   margin-left: 10%;
@@ -141,11 +149,22 @@ p {
   .line2 {
     visibility: visible;
   }
-  .hide{
+
+  h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  .hide {
     display: none;
   }
+  .home {
+    display: block !important;
+  }
+  .bigscreen {
+    display: none !important;
+  }
 }
-
 
 .arrowab {
   color: white;
@@ -153,13 +172,13 @@ p {
   text-decoration: none;
 }
 
-.arrowhm{
+.arrowhm {
   color: #fe2828;
   font-size: 1.7em;
   text-decoration: none;
 }
 
-.mailto{
+.mailto {
   text-decoration: none;
   color: #323232;
 }
