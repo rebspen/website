@@ -30,6 +30,7 @@ body {
 .about {
   margin-left: 4%;
   margin-right: 4%;
+  max-width: 1000px;
 }
 
 .line {
@@ -127,6 +128,11 @@ p {
   padding: 5%;
 }
 
+img{
+  max-width: 500px;
+  margin-left: 5%
+}
+
 .works {
   height: 100vh;
 }
@@ -163,6 +169,10 @@ p {
   }
   .bigscreen {
     display: none !important;
+  }
+  img{
+    max-width: 500px;
+    margin-left: 0;
   }
 }
 
